@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/mailclean-frontend/static/css/main.6265caaa.css",
-    "main.js": "/mailclean-frontend/static/js/main.e8155cd9.js",
-    "index.html": "/mailclean-frontend/index.html",
-    "main.6265caaa.css.map": "/mailclean-frontend/static/css/main.6265caaa.css.map",
-    "main.e8155cd9.js.map": "/mailclean-frontend/static/js/main.e8155cd9.js.map"
+    "main.css": "/static/css/main.6265caaa.css",
+    "main.js": "/static/js/main.e8155cd9.js",
+    "index.html": "/index.html",
+    "main.6265caaa.css.map": "/static/css/main.6265caaa.css.map",
+    "main.e8155cd9.js.map": "/static/js/main.e8155cd9.js.map"
   },
   "entrypoints": [
     "static/css/main.6265caaa.css",
