@@ -5,9 +5,10 @@
     <title>MailClean</title>
     <script>
       var l = window.location;
+      var path = l.pathname;
+      // Keep /privacy, /terms, /app paths working
       l.replace(
-        l.protocol + '//' + l.host + l.pathname.split('/').slice(0, 1).join('/') +
-        '/?/' + l.pathname.slice(1) + (l.search ? '&' + l.search.slice(1) : '') + l.hash
+        l.protocol + '//' + l.host + '/?path=' + encodeURIComponent(path) + (l.search ? '&' + l.search.slice(1) : '') + l.hash
       );
     </script>
   </head>
